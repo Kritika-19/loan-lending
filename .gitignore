@@ -3,3 +3,6 @@ data/
 
 # Model Artefacts
 models/
+
+# Virtual Environment
+.venv/

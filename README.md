@@ -36,16 +36,18 @@ The dataset consists of loan applications from Lending Club, including informati
 ### 3. Model Development
 - Training machine learning models including:
   - Logistic Regression
-  - Random Forest
+  - K-Nearest Neighbours
   - Naive Bayes
   - Decision Trees
+  - Bagging (Random Forest)
   - Gradient Boosting (XGBoost)
 - Hyperparameter tuning using GridSearchCV.
 - Model evaluation using metrics like accuracy, precision, recall, and F1-score.
 
-### 4. Model Deployment (Optional)
+### 4. Model Deployment
+- Saving the feature engineering artefacts
 - Saving the best model using Pickle or joblib.
-- Creating a Flask API for real-time predictions.
+- Creating a Gradio app for real-time predictions.
 
 ## Results and Findings
 - Identified key factors affecting loan defaults, such as credit score, debt-to-income ratio, and employment history.
